@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.screen__bottom {
+  margin-left: 2rem;
+}
+
+.graphic {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.screen__total {
+  display: flex;
+  gap: 20rem;
+}
+
+.screen__total__right {
+  margin-top: 3.8rem;
+}
+
+.graphic__mon {
+  margin-top: 7.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.graphic__tue {
+  margin-top: 4.1rem;
+}
+
+.graphic__wed {
+  margin-top: 1rem;
+}
+
+.graphic__thu {
+  margin-top: 4.9rem;
+}
+
+.graphic__fri {
+  margin-top: 5.8rem;
+}
+
+.graphic__sat {
+  margin-top: 2.3rem;
+}
+
+.graphic__sun {
+  margin-top: 5.3rem;
+}
+
+.screen {
+  margin: auto;
+  width: 30%;
+  margin-top: 6rem;
+}

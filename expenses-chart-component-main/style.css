@@ -1,0 +1,244 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: hsl(12, 28%, 80%);
+}
+
+.screen__top {
+  background-color: hsl(10, 79%, 65%);
+  width: 42rem;
+  padding-left: 2rem;
+  border-radius: 1.5rem;
+}
+
+.balance {
+  font-family: sans-serif;
+  color: rgb(253, 247, 247);
+  line-height: 3rem;
+  padding-top: 1rem;
+}
+
+.top__money {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: rgb(253, 247, 247);
+  padding-bottom: 1.5rem;
+}
+
+.screen__bottom__back {
+  background-color: rgb(253, 247, 247);
+  width: 42rem;
+  height: 35rem;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.bottom__title {
+  font-family: sans-serif;
+  font-size: 2.2rem;
+  color: rgb(21, 19, 19);
+  line-height: 5rem;
+  padding-top: 1.5rem;
+}
+
+.mon__sign {
+  background-color: hsl(10, 79%, 65%);
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  display: block;
+}
+
+.money {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  padding: 0.5rem;
+  background-color: rgb(21, 19, 19);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 13rem;
+}
+
+.money__two {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  padding: 0.5rem;
+  background-color: rgb(21, 19, 19);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 10rem;
+}
+
+.money__three {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  padding: 0.5rem;
+  background-color: rgb(21, 19, 19);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 25rem;
+}
+
+.money__four {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  padding: 0.5rem;
+  background-color: rgb(21, 19, 19);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 21rem;
+}
+
+.money__five {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  padding: 0.5rem;
+  background-color: rgb(21, 19, 19);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 20rem;
+}
+
+.money__six {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  padding: 0.5rem;
+  background-color: rgb(21, 19, 19);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 23.5rem;
+}
+
+.money__seven {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(253, 247, 247);
+  padding: 0.5rem;
+  background-color: rgb(21, 19, 19);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 20.5rem;
+}
+
+.day {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(137, 135, 135);
+  text-align: center;
+  display: block;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.tue__sign {
+  background-color: hsl(10, 79%, 65%);
+  border: none;
+  width: 3rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.wed__sign {
+  background-color: hsl(186, 33%, 63%);
+  border: none;
+  width: 3rem;
+  height: 9rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.thu__sign {
+  background-color: hsl(10, 79%, 65%);
+  border: none;
+  width: 3rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.fri__sign {
+  background-color: hsl(10, 79%, 65%);
+  border: none;
+  width: 3rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.sat__sign {
+  background-color: hsl(10, 79%, 65%);
+  border: none;
+  width: 3rem;
+  height: 7.5rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.sun__sign {
+  background-color: hsl(10, 79%, 65%);
+  border: none;
+  width: 3rem;
+  height: 4.5rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.total__exmp {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: rgb(137, 135, 135);
+  text-align: center;
+  display: block;
+  margin-top: 2rem;
+  margin-left: -2rem;
+  margin-bottom: 0.5rem;
+}
+
+.total__money {
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: rgb(21, 19, 19);
+}
+
+.percent {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: rgb(21, 19, 19);
+  margin-left: 2.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.total__exmp {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: rgb(137, 135, 135);
+  text-align: center;
+  display: block;
+}

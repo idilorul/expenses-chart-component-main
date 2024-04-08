@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <script defer type="module" src="script.js"></script>
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="screen__top">
+        <p class="balance">My balance</p>
+        <h1 class="top__money"><strong>$921.48</strong></h1>
+      </div>
+      <div class="screen__bottom__back">
+        <div class="screen__bottom">
+          <h1 class="bottom__title">Spending - Last 7 days</h1>
+          <div class="graphic">
+            <div class="graphic__mon">
+              <p class="money hidden">$17.45</p>
+              <button class="mon__sign"></button>
+              <p class="day">mon</p>
+            </div>
+            <div class="graphic__tue">
+              <p class="money__two hidden">$34.91</p>
+              <button class="tue__sign"></button>
+              <p class="day">tue</p>
+            </div>
+            <div class="graphic__wed">
+              <p class="money__three hidden">$52.36</p>
+              <button class="wed__sign"></button>
+              <p class="day">wed</p>
+            </div>
+            <div class="graphic__thu">
+              <p class="money__four hidden">$31.07</p>
+              <button class="thu__sign"></button>
+              <p class="day">thu</p>
+            </div>
+            <div class="graphic__fri">
+              <p class="money__five hidden">$23.39</p>
+              <button class="fri__sign"></button>
+              <p class="day">fri</p>
+            </div>
+            <div class="graphic__sat">
+              <p class="money__six hidden">$43.28</p>
+              <button class="sat__sign"></button>
+              <p class="day">sat</p>
+            </div>
+            <div class="graphic__sun">
+              <p class="money__seven hidden">$25.48</p>
+              <button class="sun__sign"></button>
+              <p class="day">sun</p>
+            </div>
+          </div>
+          <hr width="600rem" color="darkgray" />
+          <div class="screen__total">
+            <div>
+              <p class="total__exmp">Total this month</p>
+              <h1 class="total__money">$478.33</h1>
+            </div>
+            <div class="screen__total__right">
+              <p class="percent"><strong>+2.4%</strong></p>
+              <p class="total__exmp">from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
